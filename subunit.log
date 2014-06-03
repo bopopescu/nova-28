@@ -1,0 +1,1320 @@
+time: 2014-06-02 09:00:24.991367Z
+tags: worker-0
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_authorize_revoke_security_group_cidr_v6
+time: 2014-06-02 09:00:27.060937Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_authorize_revoke_security_group_cidr_v6 [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+E9C
+INFO [migrate.versioning.api] 215 -> 216... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 216 -> 217... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 217 -> 218... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 218 -> 219... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 219 -> 220... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 220 -> 221... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 221 -> 222... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 222 -> 223... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 223 -> 224... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 224 -> 225... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 225 -> 226... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 226 -> 227... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 227 -> 228... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 228 -> 229... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 229 -> 230... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 230 -> 231... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 231 -> 232... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 232 -> 233... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 233 -> 234... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 234 -> 235... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 235 -> 236... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 236 -> 237... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 237 -> 238... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 238 -> 239... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 239 -> 240... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 240 -> 241... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 241 -> 242... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 242 -> 243... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 243 -> 244... 
+INFO [migrate.versioning.api] done
+AUDIT [nova.compute.api] Create Security Group sdpssiu
+INFO [nova.api.ec2] 0.215236s None POST /services/Cloud/ CloudController:CreateSecurityGroup 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+AUDIT [nova.compute.api] Security group sdpssiu added tcp ingress (80:81)
+INFO [nova.api.ec2] 0.126530s None POST /services/Cloud/ CloudController:AuthorizeSecurityGroupIngress 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+INFO [nova.api.ec2] 0.19950s None POST /services/Cloud/ CloudController:DescribeSecurityGroups 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+AUDIT [nova.compute.api] Security group sdpssiu removed tcp ingress (80:81)
+INFO [nova.api.ec2] 0.118344s None POST /services/Cloud/ CloudController:RevokeSecurityGroupIngress 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+AUDIT [nova.compute.api] Delete security group sdpssiu
+INFO [nova.api.ec2] 0.84845s None POST /services/Cloud/ CloudController:DeleteSecurityGroup 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+INFO [nova.api.ec2] 0.16958s None POST /services/Cloud/ CloudController:DescribeSecurityGroups 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2014-06-02 09:00:27.062718Z
+tags: worker-0
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_get_all_key_pairs
+time: 2014-06-02 09:00:27.311184Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_get_all_key_pairs [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+1A2
+AUDIT [nova.api.ec2.cloud] Create key pair uifwp
+INFO [nova.api.ec2] 0.192596s None POST /services/Cloud/ CloudController:CreateKeyPair 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+INFO [nova.api.ec2] 0.5682s None POST /services/Cloud/ CloudController:DescribeKeyPairs 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2014-06-02 09:00:27.313325Z
+tags: worker-0
+test: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_dict_from_dotted_str
+time: 2014-06-02 09:00:27.355285Z
+successful: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_dict_from_dotted_str [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2014-06-02 09:00:27.356534Z
+tags: worker-0
+test: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_mapping_prepend_dev
+time: 2014-06-02 09:00:27.396191Z
+successful: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_mapping_prepend_dev [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-0
+time: 2014-06-02 09:00:25.517154Z
+tags: worker-2
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_create_delete_security_group
+time: 2014-06-02 09:00:27.409326Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_create_delete_security_group [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+BBB
+INFO [migrate.versioning.api] 215 -> 216... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 216 -> 217... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 217 -> 218... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 218 -> 219... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 219 -> 220... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 220 -> 221... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 221 -> 222... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 222 -> 223... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 223 -> 224... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 224 -> 225... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 225 -> 226... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 226 -> 227... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 227 -> 228... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 228 -> 229... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 229 -> 230... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 230 -> 231... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 231 -> 232... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 232 -> 233... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 233 -> 234... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 234 -> 235... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 235 -> 236... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 236 -> 237... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 237 -> 238... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 238 -> 239... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 239 -> 240... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 240 -> 241... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 241 -> 242... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 242 -> 243... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 243 -> 244... 
+INFO [migrate.versioning.api] done
+AUDIT [nova.compute.api] Create Security Group asasiidd
+INFO [nova.api.ec2] 0.195265s None POST /services/Cloud/ CloudController:CreateSecurityGroup 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+INFO [nova.api.ec2] 0.16562s None POST /services/Cloud/ CloudController:DescribeSecurityGroups 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+AUDIT [nova.compute.api] Delete security group asasiidd
+INFO [nova.api.ec2] 0.88041s None POST /services/Cloud/ CloudController:DeleteSecurityGroup 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2014-06-02 09:00:25.807399Z
+tags: worker-3
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_get_all_security_groups
+time: 2014-06-02 09:00:27.592135Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_get_all_security_groups [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+9D1
+INFO [migrate.versioning.api] 215 -> 216... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 216 -> 217... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 217 -> 218... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 218 -> 219... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 219 -> 220... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 220 -> 221... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 221 -> 222... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 222 -> 223... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 223 -> 224... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 224 -> 225... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 225 -> 226... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 226 -> 227... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 227 -> 228... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 228 -> 229... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 229 -> 230... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 230 -> 231... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 231 -> 232... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 232 -> 233... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 233 -> 234... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 234 -> 235... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 235 -> 236... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 236 -> 237... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 237 -> 238... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 238 -> 239... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 239 -> 240... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 240 -> 241... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 241 -> 242... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 242 -> 243... 
+INFO [migrate.versioning.api] done
+INFO [migrate.versioning.api] 243 -> 244... 
+INFO [migrate.versioning.api] done
+INFO [nova.api.ec2] 0.184062s None POST /services/Cloud/ CloudController:DescribeSecurityGroups 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:27.593965Z
+tags: worker-3
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_return_valid_isoformat
+time: 2014-06-02 09:00:27.639590Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_return_valid_isoformat [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:27.640998Z
+tags: worker-3
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_xmlns_version_matches_request_version
+time: 2014-06-02 09:00:27.708507Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_xmlns_version_matches_request_version [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+BB
+INFO [nova.api.ec2] 0.26980s None POST /services/Cloud/ CloudController:DescribeInstances 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:27.397607Z
+tags: worker-0
+test: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_create_volume_in_availability_zone
+time: 2014-06-02 09:00:27.726580Z
+failure: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_create_volume_in_availability_zone [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+32D
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for e2ebad8ba1d64adaa0f669b6b6e942d6:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+193
+/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:33: SAWarning: The IN-predicate on "instances.uuid" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  return o[0](self, self.expr, op, *(other + o[1:]), **kwargs)
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4B1
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cinder_cloud.py", line 134, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-0
+time: 2014-06-02 09:00:27.710281Z
+tags: worker-3
+test: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_id_to_ec2_id
+time: 2014-06-02 09:00:27.744535Z
+successful: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_id_to_ec2_id [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:27.745838Z
+tags: worker-3
+test: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_properties_root_defice_name
+time: 2014-06-02 09:00:27.780212Z
+successful: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_properties_root_defice_name [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:27.411212Z
+tags: worker-2
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_create_duplicate_key_pair
+time: 2014-06-02 09:00:27.805482Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_create_duplicate_key_pair [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+2E6
+AUDIT [nova.api.ec2.cloud] Create key pair test
+INFO [nova.api.ec2] 0.177081s None POST /services/Cloud/ CloudController:CreateKeyPair 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+AUDIT [nova.api.ec2.cloud] Create key pair test
+INFO [nova.api.ec2] 0.166031s None POST /services/Cloud/ CloudController:CreateKeyPair 400 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+ERROR [boto] 400 Bad Request
+ERROR [boto] <?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidKeyPair.Duplicate</Code><Message>Key pair &apos;test&apos; already exists.</Message></Error></Errors><RequestID>req-f7b10001-ae54-4966-8647-d8c80cfe717e</RequestID></Response>
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+FC
+400 Bad Request
+<?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidKeyPair.Duplicate</Code><Message>Key pair &apos;test&apos; already exists.</Message></Error></Errors><RequestID>req-f7b10001-ae54-4966-8647-d8c80cfe717e</RequestID></Response>
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+B4
+nova/openstack/common/db/sqlalchemy/session.py:379: DeprecationWarning: BaseException.message has been deprecated as of Python 2.6
+  match = pattern.match(integrity_error.message)
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2014-06-02 09:00:27.808398Z
+tags: worker-2
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_describe_instances
+time: 2014-06-02 09:00:27.889347Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_describe_instances [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+BB
+INFO [nova.api.ec2] 0.33452s None POST /services/Cloud/ CloudController:DescribeInstances 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2014-06-02 09:00:27.729274Z
+tags: worker-0
+test: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_delete_snapshot
+time: 2014-06-02 09:00:27.993747Z
+failure: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_delete_snapshot [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+32D
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for 20e77545512c4d62954cbcedf8ce07bc:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4B1
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cinder_cloud.py", line 134, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-0
+time: 2014-06-02 09:00:27.781257Z
+tags: worker-3
+test: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_describe_instances_bdm
+time: 2014-06-02 09:00:28.052691Z
+failure: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_describe_instances_bdm [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+32D
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for f4813d6e084248d2afeb265afa067b55:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+193
+/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:33: SAWarning: The IN-predicate on "instances.uuid" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  return o[0](self, self.expr, op, *(other + o[1:]), **kwargs)
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4B1
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cinder_cloud.py", line 134, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:27.891715Z
+tags: worker-2
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_group_name_valid_chars_security_group
+time: 2014-06-02 09:00:28.196801Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_group_name_valid_chars_security_group [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+A0B
+INFO [nova.api.ec2] 0.1819s None POST /services/Cloud/ CloudController:CreateSecurityGroup 400 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+ERROR [boto] 400 Bad Request
+ERROR [boto] <?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidParameterValue</Code><Message>Value (aa #^% -=99) for parameter GroupName is invalid. Content limited to &apos;^[a-zA-Z0-9_\- ]+$&apos;.</Message></Error></Errors><RequestID>req-490ee800-89cd-418b-a750-251c70e0cfbf</RequestID></Response>
+INFO [nova.api.ec2] 0.2555s None POST /services/Cloud/ CloudController:CreateSecurityGroup 400 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+ERROR [boto] 400 Bad Request
+ERROR [boto] <?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidParameterValue</Code><Message>Value (aa #^% -=99) for parameter GroupDescription is invalid. Content limited to &apos;^[a-zA-Z0-9_\- ]+$&apos;.</Message></Error></Errors><RequestID>req-490ee800-89cd-418b-a750-251c70e0cfbf</RequestID></Response>
+INFO [nova.api.ec2] 0.2086s None POST /services/Cloud/ CloudController:CreateSecurityGroup 400 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+ERROR [boto] 400 Bad Request
+ERROR [boto] <?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidParameterValue</Code><Message>Value (aa 	) for parameter GroupName is invalid. Content limited to &apos;^[\x20-\x7E]+$&apos;.</Message></Error></Errors><RequestID>req-490ee800-89cd-418b-a750-251c70e0cfbf</RequestID></Response>
+AUDIT [nova.compute.api] Create Security Group aa #^% -=99
+INFO [nova.api.ec2] 0.42622s None POST /services/Cloud/ CloudController:CreateSecurityGroup 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+AUDIT [nova.compute.api] Delete security group aa #^% -=99
+INFO [nova.api.ec2] 0.92235s None POST /services/Cloud/ CloudController:DeleteSecurityGroup 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+AUDIT [nova.compute.api] Create Security Group test name
+INFO [nova.api.ec2] 0.24780s None POST /services/Cloud/ CloudController:CreateSecurityGroup 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+AUDIT [nova.compute.api] Delete security group test name
+INFO [nova.api.ec2] 0.80960s None POST /services/Cloud/ CloudController:DeleteSecurityGroup 200 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+3AD
+400 Bad Request
+<?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidParameterValue</Code><Message>Value (aa #^% -=99) for parameter GroupName is invalid. Content limited to &apos;^[a-zA-Z0-9_\- ]+$&apos;.</Message></Error></Errors><RequestID>req-490ee800-89cd-418b-a750-251c70e0cfbf</RequestID></Response>
+400 Bad Request
+<?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidParameterValue</Code><Message>Value (aa #^% -=99) for parameter GroupDescription is invalid. Content limited to &apos;^[a-zA-Z0-9_\- ]+$&apos;.</Message></Error></Errors><RequestID>req-490ee800-89cd-418b-a750-251c70e0cfbf</RequestID></Response>
+400 Bad Request
+<?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidParameterValue</Code><Message>Value (aa 	) for parameter GroupName is invalid. Content limited to &apos;^[\x20-\x7E]+$&apos;.</Message></Error></Errors><RequestID>req-490ee800-89cd-418b-a750-251c70e0cfbf</RequestID></Response>
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2014-06-02 09:00:28.199694Z
+tags: worker-2
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_terminate_invalid_instance
+time: 2014-06-02 09:00:28.253142Z
+successful: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_terminate_invalid_instance [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+1CF
+INFO [nova.api.ec2] 0.5285s None POST /services/Cloud/ CloudController:TerminateInstances 404 [Boto/2.28.0 Python/2.7.3 Linux/3.2.0-57-generic] application/x-www-form-urlencoded text/xml
+ERROR [boto] 404 Not Found
+ERROR [boto] <?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidInstanceID.NotFound</Code><Message>Instance i-00000005 could not be found.</Message></Error></Errors><RequestID>req-3203ed32-0ed9-4a21-9b32-4ba90429e149</RequestID></Response>
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+FA
+404 Not Found
+<?xml version="1.0"?>
+<Response><Errors><Error><Code>InvalidInstanceID.NotFound</Code><Message>Instance i-00000005 could not be found.</Message></Error></Errors><RequestID>req-3203ed32-0ed9-4a21-9b32-4ba90429e149</RequestID></Response>
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2014-06-02 09:00:27.996205Z
+tags: worker-0
+test: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_describe_snapshots
+time: 2014-06-02 09:00:28.286339Z
+failure: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_describe_snapshots [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+32D
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for d2de34057282474a96fb483121b3324c:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4B1
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cinder_cloud.py", line 134, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-0
+time: 2014-06-02 09:00:28.255813Z
+tags: worker-2
+test: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_regex_from_ec2_regex
+time: 2014-06-02 09:00:28.296902Z
+successful: nova.tests.api.ec2.test_api.Ec2utilsTestCase.test_regex_from_ec2_regex [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+]
+tags: -worker-2
+time: 2014-06-02 09:00:28.055538Z
+tags: worker-3
+test: nova.tests.api.ec2.test_cloud.CloudTestCase.test_authorize_security_group_ingress
+time: 2014-06-02 09:00:28.373660Z
+failure: nova.tests.api.ec2.test_cloud.CloudTestCase.test_authorize_security_group_ingress [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+378
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for 84acd6ad2bc24cd6a8daeb747e6574a5:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4AA
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cloud.py", line 182, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:28.288934Z
+tags: worker-0
+test: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_format_instance_bdm
+time: 2014-06-02 09:00:28.597680Z
+failure: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_format_instance_bdm [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+32D
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for c24d389617984cad935cd6e2c9542e57:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4B1
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cinder_cloud.py", line 134, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-0
+time: 2014-06-02 09:00:28.298693Z
+tags: worker-2
+test: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_create_snapshot
+time: 2014-06-02 09:00:28.607209Z
+failure: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_create_snapshot [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+32D
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for f3604990caf0448784e9c6990a1f4d94:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+193
+/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:33: SAWarning: The IN-predicate on "instances.uuid" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  return o[0](self, self.expr, op, *(other + o[1:]), **kwargs)
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4B1
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cinder_cloud.py", line 134, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-2
+time: 2014-06-02 09:00:28.377420Z
+tags: worker-3
+test: nova.tests.api.ec2.test_cloud.CloudTestCase.test_console_output
+time: 2014-06-02 09:00:28.698776Z
+failure: nova.tests.api.ec2.test_cloud.CloudTestCase.test_console_output [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+378
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for 51c96d5d8fc74f1c95841821b30e9733:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4AA
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cloud.py", line 182, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:28.610323Z
+tags: worker-2
+test: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_create_volume_from_snapshot
+time: 2014-06-02 09:00:28.865694Z
+failure: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_create_volume_from_snapshot [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+32D
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for 47f77aa16fab4d10bf7b9fccac8c6f7c:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4B1
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cinder_cloud.py", line 134, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-2
+time: 2014-06-02 09:00:28.599814Z
+tags: worker-0
+test: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_format_snapshot_maps_status
+time: 2014-06-02 09:00:28.891510Z
+failure: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_format_snapshot_maps_status [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+32D
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for c45dbbb30bf64102a1f203efc157a693:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4B1
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cinder_cloud.py", line 134, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-0
+time: 2014-06-02 09:00:28.702709Z
+tags: worker-3
+test: nova.tests.api.ec2.test_cloud.CloudTestCase.test_create_delete_security_group
+time: 2014-06-02 09:00:29.015720Z
+failure: nova.tests.api.ec2.test_cloud.CloudTestCase.test_create_delete_security_group [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+378
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for 332baabd66f44173b5279d5e106f87e4:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4AA
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cloud.py", line 182, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:28.868291Z
+tags: worker-2
+test: nova.tests.api.ec2.test_cloud.CloudTestCase.test_associate_disassociate_address
+time: 2014-06-02 09:00:29.234114Z
+failure: nova.tests.api.ec2.test_cloud.CloudTestCase.test_associate_disassociate_address [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+378
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for af6c1955ee6947539c7cc6b5117b100b:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4AA
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cloud.py", line 182, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-2
+time: 2014-06-02 09:00:29.019660Z
+tags: worker-3
+test: nova.tests.api.ec2.test_cloud.CloudTestCase.test_create_key_pair_quota_limit
+time: 2014-06-02 09:00:29.355128Z
+failure: nova.tests.api.ec2.test_cloud.CloudTestCase.test_create_key_pair_quota_limit [ multipart
+Content-Type: text/plain;charset="utf8"
+pythonlogging:''
+378
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting conductor node (version 2014.2)
+INFO [nova.virt.driver] Loading compute driver 'nova.virt.fake.FakeDriver'
+AUDIT [nova.service] Starting compute node (version 2014.2)
+AUDIT [nova.compute.resource_tracker] Auditing locally available compute resources
+AUDIT [nova.compute.resource_tracker] Free ram (MB): 7680
+AUDIT [nova.compute.resource_tracker] Free disk (GB): 1028
+AUDIT [nova.compute.resource_tracker] Free VCPUS: 1
+AUDIT [nova.compute.resource_tracker] PCI stats: []
+INFO [nova.compute.resource_tracker] Compute_service record created for 2019228b2f914fd9bbd4ff829b55eaa4:fake-mini
+AUDIT [nova.service] Starting scheduler node (version 2014.2)
+INFO [nova.network.driver] Loading network driver 'nova.network.linux_net'
+AUDIT [nova.service] Starting network node (version 2014.2)
+0
+Content-Type: text/plain;charset="utf8"
+pythonlogging:'boto'
+0
+Content-Type: text/plain;charset="utf8"
+stderr
+0
+Content-Type: text/plain;charset="utf8"
+stdout
+0
+Content-Type: text/x-traceback;charset="utf8",language="python"
+traceback
+4AA
+Traceback (most recent call last):
+  File "nova/tests/api/ec2/test_cloud.py", line 182, in setUp
+    self.network = self.start_service('network')
+  File "nova/test.py", line 347, in start_service
+    svc = self.useFixture(ServiceFixture(name, host, **kwargs))
+  File "/home/afrolov/stack/nova/nova/.tox/cover/local/lib/python2.7/site-packages/testtools/testcase.py", line 628, in useFixture
+    fixture.setUp()
+  File "nova/test.py", line 185, in setUp
+    self.service.start()
+  File "nova/service.py", line 163, in start
+    self.manager.init_host()
+  File "nova/network/manager.py", line 1744, in init_host
+    self.driver.iptables_manager.defer_apply_off()
+  File "nova/network/linux_net.py", line 412, in defer_apply_off
+    self.apply()
+  File "nova/network/linux_net.py", line 428, in apply
+    self._apply()
+  File "nova/openstack/common/lockutils.py", line 246, in inner
+    with lock(name, lock_file_prefix, external, lock_path):
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "nova/openstack/common/lockutils.py", line 183, in lock
+    raise cfg.RequiredOptError('lock_path')
+RequiredOptError: value required for option: lock_path
+0
+]
+tags: -worker-3
+time: 2014-06-02 09:00:26.103497Z
+tags: worker-2
+test: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_authorize_revoke_security_group_cidr
+failure: nova.tests.api.ec2.test_api.ApiEc2TestCase.test_authorize_revoke_security_group_cidr [ multipart
+]
+tags: -worker-2
+time: 2014-06-02 09:00:28.893603Z
+tags: worker-0
+test: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_format_volume_maps_status
+failure: nova.tests.api.ec2.test_cinder_cloud.CinderCloudTestCase.test_format_volume_maps_status [ multipart
+]
+tags: -worker-0
+time: 2014-06-02 09:00:29.237755Z
+tags: worker-2
+test: nova.tests.api.ec2.test_cloud.CloudTestCase.test_authorize_security_group_ingress_already_exists
+failure: nova.tests.api.ec2.test_cloud.CloudTestCase.test_authorize_security_group_ingress_already_exists [ multipart
+]
+tags: -worker-2
+time: 2014-06-02 09:00:29.359180Z
+tags: worker-3
+test: nova.tests.api.ec2.test_cloud.CloudTestCase.test_delete_security_group_by_id
+failure: nova.tests.api.ec2.test_cloud.CloudTestCase.test_delete_security_group_by_id [ multipart
+]
+tags: -worker-3
